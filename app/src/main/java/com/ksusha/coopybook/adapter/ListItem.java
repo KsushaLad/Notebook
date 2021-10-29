@@ -2,34 +2,35 @@ package com.ksusha.coopybook.adapter;
 
 import java.io.Serializable;
 
+//Serializable, чтобы Intent понимал, что он передает сразу весь класс
 public class ListItem implements Serializable {
     private String title;
-    private String desc;
-    private String uri = "empty";
+    private String description;
+    private String linkToPhoto = "empty";
     private int id = 0;
 
-    public String getTitle() {
+    public String getTitle() { //для получения данных
         return title;
     }
 
-    public void setTitle(String title) {
+    public void setTitle(String title) { //для записи данных
         this.title = title;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public String getUri() {
-        return uri;
+    public String getLinkToPhoto() {
+        return linkToPhoto;
     }
 
-    public void setUri(String uri) {
-        this.uri = uri;
+    public void setLinkToPhoto(String linkToPhoto) {
+        this.linkToPhoto = linkToPhoto;
     }
 
     public int getId() {

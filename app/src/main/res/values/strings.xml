@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Блокнот</string>
+    <string name="app_name">NoteBook</string>
     <string name="text_empty">Поле заголовка или содержания не заполнено!</string>
     <string name="saved">Сохранено</string>
+    <string name="title">Title</string>
+    <string name="discription">Description</string>
+    <string name="searchview">SearchView</string>
 </resources>
