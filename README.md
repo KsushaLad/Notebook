@@ -11,7 +11,7 @@
 * select pictures;
 * delete clip art;
 * data change. 
-# ![Screenshot](photo_2021-10-10_21-19-45.jpg)
+# ![Screenshot](NoteBook-всегда-под-рукой_.jpg)
 ## This project uses:
 * Java; 
 * Collections; 
